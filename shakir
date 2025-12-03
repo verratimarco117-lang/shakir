@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Hospital Management System</h1>
+  <p>Healthcare at your service</p>
+  <button id="darkModeBtn">🌙 Dark Mode</button>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#departments">Departments</a>
+  <a href="#doctors">Doctors</a>
+  <a href="#appointment">Appointment</a>
+  <a href="admin.html">Admin Login</a>
+</nav>
+
+<section class="search-section">
+  <input type="text" id="searchBox" placeholder="🔍 Search doctors or services...">
+</section>
+<br>
+<br>
+<section class="hero">
+  <img src="./International-Modern-Hospital.jpg" alt="Hospital">
+  <div class="hero-text">
+    <h2>Your Health, Our Priority</h2>
+    <p>Providing world-class medical care for you and your family.</p>
+    <a href="#appointment" class="btn">Book Appointment</a>
+  </div>
+</section>
+
+
+<section id="departments">
+  <h1>Our Services</h1>
+  <div class="services search-item">
+    <div class="card">🏥 Emergency Care</div>
+    <div class="card">💊 Pharmacy Services</div>
+    <div class="card">🧪 Lab Tests</div>
+    <div class="card">👶 Maternity</div>
+    <div class="card">🩺 Surgical Services</div>
+    <div class="card">👩‍⚕️ Outpatient</div>
+    <div class="card">💉 Intensive Care Unit (ICU) </div>
+    <div class="card">🤰 Maternity & Obstetrics</div>
+    <div class="card">🧪 Laboratory Services</div>
+    <div class="card">🩸 Blood Bank & Transfusion</div>
+    <div class="card">😁 Dental Services</div>
+    <div class="card">🧠 Mental Health & Counseling</div>
+    <div class="card">🏃 Physiotherapy & Rehabilitation</div>
+    <div class="card">🥗 Nutrition & Dietetics</div>
+    <div class="card">📢 Health Education & Promotion</div>
+    
+  </div>
+</section>
+
+<section id="doctors">
+  <h2>Our Doctors</h2>
+  <div class="doctors search-item">
+    <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 1">
+      <h3>Dr. Amina Ali</h3>
+      <p>💊 Pharmacy Services</p>
+    </div>
+    <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 2">
+      <h3>Dr. Mohamed Hassan</h3>
+      <p>💉 Intensive Care Unit (ICU)</p>
+    </div>
+    <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 3">
+      <h3>Dr. Leyla Yusuf</h3>
+      <p>🧒 Pediatrics</p>
+    </div>
+     <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 4">
+      <h3>Dr. abdiweli heenseeye</h3>
+      <p>🧪 Laboratory Services</p>
+    </div>
+    <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 5">
+      <h3>Dr. abdiqaadir warsame</h3>
+      <p>🧠 Mental Health & Counseling</p>
+    </div>
+     <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 6">
+      <h3>Dr. abshir isse abdi</h3>
+      <p>🩸 Blood Bank & Transfusion</p>
+    </div>
+    <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 7">
+      <h3>Dr. faarah abdi ali</h3>
+      <p>👩‍⚕️ Outpatient</p>
+    </div>
+    <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 8">
+      <h3>Dr. shaakir abdulahi</h3>
+      <p>📢 Health Education & Promotion</p>
+    </div>
+    <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 9">
+      <h3>Dr. maaida ahmed</h3>
+      <p>🥗 Nutrition & Dietetics</p>
+    </div>
+    <div class="doctor-card">
+      <img src="WhatsApp_Image_2024-04-09_at_2.50.48_PM__2_-removebg-preview.png" alt="Doctor 10">
+      <h3>Dr. maaida ahmed</h3>
+      <p>🤰 Maternity & Obstetrics</p>
+    </div>
+    
+  </div>
