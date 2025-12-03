@@ -113,3 +113,46 @@
     </div>
     
   </div>
+</section>
+
+<section id="appointment">
+  <h2>Book an Appointment</h2>
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="date" id="appointmentDate" required>
+    <select required>
+      <option>Select Department</option>
+      <option>Emergency</option>
+      <option>Outpatient</option>
+      <option>Maternity</option>
+      <option>Surgery</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="calendar"></div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Hospital Management System | All Rights Reserved</p>
+  <p>more information about qardho General hospital</p>
+  <P>location: qardho karkaar puntland</P>
+  <P>contact: 0907244795 or 0905688983 or 0906158560</P>
+  <p>Email:qardhogeneralhospital@.com</p>
+  
+  <p></p>
+</footer>
+
+<div id="chatContainer">
+  <div id="chatHeader">💬 Chat with us</div>
+  <div id="chatMessages"></div>
+  <div id="chatInputArea">
+    <input type="text" id="chatInput" placeholder="Type your message...">
+    <button id="sendBtn">Send</button>
+  </div>
+</div>
+<button id="chatToggleBtn">💬</button>
+
+<script src="script.js"></script>
+</body>
+</html>
